@@ -1,3 +1,3 @@
 #!/usr/bin/perl
 use warnings;
-print 25, -4;
+print 25," ", -4, "\n";
