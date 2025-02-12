@@ -33,9 +33,9 @@ my $currency_end = <STDIN>;
 print "Enter conversion rate:\n";
 my $conv_rate = <STDIN>;
 
-# print "Enter amount:\n"
+print "Enter amount:\n";
 
-# my $quantity = <STDIN>;
+my $quantity = <STDIN>;
 
-print "100 ${currency_start} in $currency_end is:\n" . 100 * $conv_rate;
+print "$quantity $currency_start in $currency_end is:\n" . $quantity * $conv_rate;
 }
